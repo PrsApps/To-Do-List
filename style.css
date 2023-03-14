@@ -117,3 +117,16 @@ body {
 #btn-ok:hover {
     background-color: var(--color-green2);
 }
+
+
+@media (max-width:500px){
+  #input-new-task {
+    width: 60vw;
+
+    }
+  
+  .content__add-item {
+    flex-wrap: nowrap;
+  
+  }
+}
